@@ -7,7 +7,7 @@ This function will flash a LED with cycles
  * Forum:  http://forum.cncprovn.com/forums/8
  
  
- ![Arduino LED Status milti Flashes](Arduino_LED_Status_multi_Flashes/ArduinoLEDFlashes.png)
+ ![Arduino LED Status milti Flashes](https://github.com/PhamDuyAnh/Arduino_LED_Status_multi_Flashes/ArduinoLEDFlashes.png)
  
  
           .                                                       state             (stat flashing led, HIGHT or LOW);
