@@ -35,6 +35,6 @@ void setup()
 
 void loop()
 {
-  bitWrite(portChk, pinChk, !bitRead(portChk, pinChk));
+  bitWrite(portChk, pinChk, !bitRead(portChk, pinChk));  //output for check
   LEDStatusFlashes(13, 1, 2000, 1);
 }
