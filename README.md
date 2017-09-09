@@ -7,7 +7,8 @@ This function will flash a LED with cycles
  * Forum:  http://forum.cncprovn.com/forums/8
  
  
- fgkyhl
+ ![Arduino LED Status milti Flashes](Arduino_LED_Status_multi_Flashes/ArduinoLEDFlashes.png)
+ 
  
           .                                                       state             (stat flashing led, HIGHT or LOW);
           .           *     *     *<----------------------------- timeBlink         (the number of times the leds flash in one cycle)
