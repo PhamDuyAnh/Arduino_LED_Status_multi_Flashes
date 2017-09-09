@@ -14,6 +14,7 @@ This function will flash a LED with cycles
           Led off  __| |___| |___| |__________________________|
  
  # Example:
+    //LEDStatusFlashes(byte pin, byte timeBlink, unsigned int intervalLEDStatus, byte state)
     void loop()
     {
       LEDStatusFlashes(13, 2, 2000, 1);
