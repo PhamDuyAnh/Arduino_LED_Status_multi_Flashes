@@ -6,13 +6,13 @@ This function will flash a LED with cycles
  * Update: 09-09-2017
  * Forum:  http://forum.cncprovn.com/forums/8
  
-                                                          state             (stat flashing led, HIGHT or LOW);
-             *     *     *<----------------------------- timeBlink         (the number of times the leds flash in one cycle)
-          ->| |<---------------------------------------- timeLED           (time led flash, ms)
-          ->| |                                      |<- intervalLEDStatus (time of a cycle, ms)
- Led on      _     _     _
- Led off  __| |___| |___| |__________________________|
-  
+          .                                                       state             (stat flashing led, HIGHT or LOW);
+          .           *     *     *<----------------------------- timeBlink         (the number of times the leds flash in one cycle)
+          .        ->| |<---------------------------------------- timeLED           (time led flash, ms)
+          .        ->| |                                      |<- intervalLEDStatus (time of a cycle, ms)
+          Led on      _     _     _
+          Led off  __| |___| |___| |__________________________|
+ 
  # Example:
     void loop()
     {
